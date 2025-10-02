@@ -34,7 +34,7 @@ header{
   color: var(--texto);
   padding: 10px;
   display: flex;
-  justify-content: flex-end;
+  justify-content: center;
   align-content: center;
 }
 
