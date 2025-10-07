@@ -237,6 +237,25 @@ article h2{
   overflow: hidden;
   border-radius: 8px;
 }
+
+footer{
+  background-color: var(--destaque);
+  color: var(--texto-inverso);
+  text-align: center;
+  padding: 15px;
+}
+
+footer a{
+  color: var(--texto-inverso);
+  text-decoration: none;
+  font-weight: bold;
+  transition: color .1s;
+}
+
+footer a:hover{
+  color: var(--destaque-inverso);
+}
+
 @media screen and (min-width: 768px) {
   .skill-container{
     grid-template-columns: 1fr 1fr;
@@ -253,6 +272,7 @@ article h2{
 
   #projeto-container .foto{
     aspect-ratio: 1/1;
-    max-width: ;
+    max-width: 20%;
+    max-height: 200px;
   }
 }
